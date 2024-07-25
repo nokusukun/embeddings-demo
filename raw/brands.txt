@@ -1,0 +1,100 @@
+Nike
+Apple
+Samsung
+Adidas
+Amazon
+Microsoft
+Sony
+Google
+Coca-Cola
+Pepsi
+McDonald's
+BMW
+Mercedes-Benz
+Ford
+Toyota
+Honda
+Volkswagen
+IKEA
+LG
+Gucci
+Chanel
+Prada
+Louis Vuitton
+Rolex
+Versace
+H&M
+Zara
+Levi's
+Nike Jordan
+Under Armour
+Puma
+Reebok
+Vans
+Converse
+New Balance
+Gap
+Ralph Lauren
+Tommy Hilfiger
+Calvin Klein
+Hanes
+Uniqlo
+Coach
+Michael Kors
+Burberry
+Hugo Boss
+Ray-Ban
+Oakley
+Disney
+Marvel
+Apple (Beats)
+Sony (PlayStation)
+Xbox
+Nintendo
+Canon
+Nikon
+GoPro
+Fitbit
+Garmin
+Bose
+Beats by Dre
+Yamaha
+Panasonic
+HP (Hewlett-Packard)
+Dell
+Asus
+Acer
+Lenovo
+LG Electronics
+Siemens
+Bosch
+KitchenAid
+Whirlpool
+Nestle
+Kellogg's
+Procter & Gamble (P&G)
+Johnson & Johnson
+L'Oréal
+Colgate-Palmolive
+Coca-Cola (Coca-Cola Company)
+PepsiCo
+Red Bull
+Starbucks
+Dunkin' (Dunkin' Donuts)
+Heineken
+Budweiser
+Guinness
+FedEx
+UPS (United Parcel Service)
+DHL
+American Express
+Visa
+Mastercard
+PayPal
+Uber
+Airbnb
+Booking.com
+Expedia
+TripAdvisor
+Netflix
+Spotify

@@ -1,0 +1,66 @@
+Electronics > Mobile Phones
+Electronics > Laptops & Computers
+Electronics > Tablets & E-Readers
+Electronics > Cameras & Camcorders
+Electronics > Audio & Headphones > Mixers
+Electronics > Audio & Headphones > In Ear Monitors
+Electronics > Audio & Headphones > Over-Ear Monitors
+Electronics > Audio & Headphones > Speakers
+Home & Kitchen > Kitchen > Appliances > Microwaves
+Home & Kitchen > Kitchen > Appliances > Coffee Makers
+Home & Kitchen > Kitchen > Appliances > Blenders & Juicers
+Home & Kitchen > Kitchen > Appliances > Toasters & Ovens
+Home & Kitchen > Kitchen > Appliances > Stand Mixers
+Home & Kitchen > Kitchen > Cookware & Bakeware > Pots & Pans
+Home & Kitchen > Kitchen > Cookware & Bakeware > Baking Sheets & Molds
+Home & Kitchen > Kitchen > Cookware & Bakeware > Pressure Cookers
+Home & Kitchen > Kitchen > Dining & Entertaining > Dinnerware Sets
+Home & Kitchen > Kitchen > Dining & Entertaining > Glassware & Drinkware
+Home & Kitchen > Furniture > Living Room > Sofas & Couches
+Home & Kitchen > Furniture > Living Room > Coffee Tables
+Home & Kitchen > Furniture > Living Room > TV Stands & Cabinets
+Home & Kitchen > Furniture > Bedroom > Beds & Bed Frames
+Home & Kitchen > Furniture > Bedroom > Dressers & Chests
+Home & Kitchen > Furniture > Bedroom > Nightstands
+Home & Kitchen > Home Decor > Wall Art & Paintings
+Home & Kitchen > Home Decor > Decorative Cushions & Pillows
+Home & Kitchen > Home Decor > Rugs & Carpets
+Fashion > Men's Clothing > T-Shirts & Polos
+Fashion > Men's Clothing > Shirts
+Fashion > Men's Clothing > Jeans & Trousers
+Fashion > Women's Clothing > Dresses & Skirts
+Fashion > Women's Clothing > Tops & Blouses
+Fashion > Women's Clothing > Pants & Leggings
+Fashion > Kids & Baby Clothing > Boys Clothing
+Fashion > Kids & Baby Clothing > Girls Clothing
+Fashion > Kids & Baby Clothing > Baby Rompers & Onesies
+Fashion > Shoes & Accessories > Men's Shoes
+Fashion > Shoes & Accessories > Women's Shoes
+Fashion > Shoes & Accessories > Bags & Backpacks
+Fashion > Shoes & Accessories > Hats & Caps
+Sports & Outdoors > Exercise & Fitness > Treadmills & Cardio Machines
+Sports & Outdoors > Exercise & Fitness > Weights & Dumbbells
+Sports & Outdoors > Exercise & Fitness > Yoga & Pilates Equipment
+Sports & Outdoors > Camping & Hiking > Tents & Sleeping Bags
+Sports & Outdoors > Camping & Hiking > Backpacks & Rucksacks
+Sports & Outdoors > Camping & Hiking > Camp Cooking Gear
+Sports & Outdoors > Sports Gear & Equipment > Soccer Balls & Equipment
+Sports & Outdoors > Sports Gear & Equipment > Basketball Hoops & Balls
+Sports & Outdoors > Sports Gear & Equipment > Tennis Rackets & Gear
+Beauty & Personal Care > Skincare > Cleansers & Toners
+Beauty & Personal Care > Skincare > Moisturizers & Creams
+Beauty & Personal Care > Skincare > Serums & Oils
+Beauty & Personal Care > Makeup > Foundation & Concealers
+Beauty & Personal Care > Makeup > Lipsticks & Lip Care
+Beauty & Personal Care > Makeup > Eyeshadows & Mascara
+Beauty & Personal Care > Haircare > Shampoos & Conditioners
+Beauty & Personal Care > Haircare > Hair Styling Products
+Beauty & Personal Care > Haircare > Hair Color & Dye
+Books, Movies & Music > Books > Fiction
+Books, Movies & Music > Books > Non-Fiction
+Books, Movies & Music > Books > Children's Books
+Books, Movies & Music > Movies & TV Shows > Action & Adventure
+Books, Movies & Music > Movies & TV Shows > Comedy
+Books, Movies & Music > Movies & TV Shows > Drama
+Books, Movies & Music > Music > CDs & Vinyl Records
+Books, Movies & Music > Music > Digital Downloads
