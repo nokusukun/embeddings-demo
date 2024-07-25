@@ -8,7 +8,7 @@ from storage_provider import MemStorageProvider
 from openai.embeddings_utils import cosine_similarity
 
 
-embed_provider = OpenAIIEmbeddingProvider("sk-proj-yourAPIKeyHere")
+embed_provider = OpenAIIEmbeddingProvider("sk-proj-")
 storage_provider = MemStorageProvider(embed_provider)
 
 providers = Providers(

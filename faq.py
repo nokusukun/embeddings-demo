@@ -1,7 +1,7 @@
+import pickle
 import main
-from shove import Shove
+import base64
 
-embedding_store = Shove('file://.cache')
 faq_data = [
     {
       "question": "What are the bank's operating hours?",
@@ -49,7 +49,7 @@ faq_data = [
     },
     {
       "question": "What is the minimum balance requirement for a savings account?",
-      "answer": "The minimum balance requirement for a savings account is $100. If the balance falls below this amount, a monthly fee may apply."
+      "answer": "The minimumZ balance requirement for a savings account is $100. If the balance falls below this amount, a monthly fee may apply."
     },
     {
       "question": "How can I apply for a credit card?",
@@ -84,3 +84,51 @@ faq_data = [
       "answer": "If you need to update your personal information, such as your address or phone number, you can do so through our online banking portal, mobile app, or by visiting any of our branches."
     }
   ]
+
+def cached_embedding(query: str):
+    slug = base64.b32encode(query.encode())
+    try:
+        with open(f"./cache/{slug}", "rb") as f:
+            print("Loading from cache")
+            return pickle.load(f)
+    except Exception as e:
+        embedding = main.suggestions.providers.embed.gen_embedding(query)
+        with open(f"./cache/{slug}", "wb") as f:
+            pickle.dump(embedding, f)
+    return embedding
+
+faq_embeddings = [{
+    "embedding": cached_embedding(q["question"]),
+    "context": q
+} for q in faq_data]
+
+def search_faq(query: str, n_items: int = 3) -> list[dict]:
+    search = main.suggestions.providers.embed.gen_embedding(query)
+    calculated = [
+        # {
+        #     "question": x["context"]["question"],
+        #     "answer": x["context"]["answer"],
+        #     "score": main.cosine_similarity(search, x["embedding"])
+        # } for x in faq_embeddings
+    ]
+    for x in faq_embeddings:
+        struct = {
+            "answer": x["context"]["answer"],
+            "score": main.cosine_similarity(search, x["embedding"])
+        }
+        calculated.append(struct)
+
+    ranked = sorted(calculated, key=lambda x: x["score"], reverse=True)
+    return ranked[:n_items]
+
+def main_():
+    while True:
+        prompt = input(">> ")
+        results = search_faq(prompt)
+        for i, r in enumerate(results):
+            print(f"Rank {i+1}: \"{r['answer']}\" score: {int(r['score'] * 100)}% similarity")
+        print(results[0]['answer'])
+
+
+if __name__ == "__main__":
+    main_()
